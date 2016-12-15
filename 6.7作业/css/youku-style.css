@@ -1,0 +1,212 @@
+@charset "utf-8";
+/* CSS Document */
+
+.box{min-width:970px; margin:0 auto;}
+.logo a{width:140px; height:31px; background:url(../img/1.png); display:block; text-indent:-999px;}
+.soso{width:228px; height:36px; border:2px solid #a0a0a0; border-right:none;}
+.sou{margin-left:180px; width:320px; }
+.sear{width:90px; height:40px; background:url(../img/header.png) 0 -160px; }
+.hd-r{padding-top:15px;}
+.hd-r span{width:16px; height:16px; background:url(../img/header.png) -42px -22px; margin:0px 2px 0 31px; }
+.hd-r select{border:none;  margin-right:20px;}
+.hd-r a{margin-right:20px;}
+.hd-r .dd{background-position:-2px -2px; margin-left:0;}
+.login a{line-height:40px;}
+.login i{margin:15px 6px 0; font-style:normal;}
+.head{margin-bottom:21px;}
+/*导航*/
+.nav { border-bottom:3px solid #e6e6e6; }
+.hd-nav a{margin-right:20px; font-size:16px; line-height:34px;}
+.hd-nav a:hover{color:#06a7e1; border-bottom:3px solid #06a7e1;}
+.nav-r {line-height:32px;}
+.nav-r span{width:3px; height:3px; background:url(../img/3.png); display:block;}
+.nav-r select{margin-right:20px; border:none; margin-top:10px;}
+/*首页视频*/
+.vadio{margin-top:20px; margin-bottom:50px;}
+.vadio-l{width:640px;}
+.vadio-r{width:310px;}
+.v-up{height:240px;}
+.v-up .first{width:420px; height:240px;}
+.v-up .list-2{margin-bottom:20px;}
+.v-dw{height:130px; margin-top:20px;}
+.v-dw img{margin-right:20px;}
+.v-dw .list-3{margin-right:0;}
+.vadio-r .r-u{width:310px; height:110px; margin-bottom:20px;}
+.vadio-r .r-dw{width:310px; height:240px;}
+/*个人中心*/
+.center {line-height:30px; margin-bottom:20px;}
+.center h3{font-size:24px; margin-right:20px;}
+.cen-up a{float:left; padding:0 10px;}
+.center .list-1{background:#06a7e1; color:#fff;}
+.center a:hover{background:#06a7e1; color:#fff;}
+.cen-dw li{float:left; margin-right:20px;}
+.list-4 .info{width:181px; height:72px; background:#ccc; padding:0 13px 0 6px; line-height:20px; padding-top:8px; } 
+.info span{width:12px; height:12px; background:url(../img/0.png); margin-top:7px; margin-right:7px;}
+.info .p {margin-top:3px; margin-right:5px;}
+.info .du{width:12px; height:12px; background:url(../img/11.png);}
+.cen-dw{margin-bottom:46px;}
+.cen-dw .list-5{margin-right:0; }
+.list-6, .list-7{margin-left:20px;}
+.cen-dw .list-6{width:200px; height:190px; background:#f5f5f5;}
+.cen-dw .list-7{width:90px; height:190px; background:#f5f5f5;}
+.list-6 h3{line-height:33px; margin-top:16px;}
+.list-6 p{line-height:29px;}
+.list-6 img{margin:6px 0 12px 13px;}
+.list-6 h3, .p,input{margin-left:11px;}
+.list-6 input{width:180px; height:35px; background:#06a7e1; color:#fff; line-height:35px; text-align:center;}
+.list-7 div{width:2em; margin:63px auto 0; font-size:18px; line-height:23px;}
+/*原创*/
+.yuan{margin-bottom:50px;}
+.hd-yc{margin-bottom:16px;}
+.hd-yc a{line-height:30px; font-size:19px; padding:0 21px; }
+.hd-yc a:hover{background:#06a7e1; color:#fff;}
+.yc .yc-1{width:200px; margin-right:20px;}
+.yc-1 .yc-up img{width:200px; height:114px;}
+.yc-1 .yc-up{position:relative;}
+.yc-1 .yc-up span{position:absolute; bottom:4px; left:5px; color:#fff;}
+.yc-1 .yc-dw {height:74px; background:#f5f5f5; padding-top:6px;}
+.yc-dw p{line-height:24px;}
+.yc-dw i{width:12px; height:12px; background:url(../img/0.png); margin:5px 5px 0 5px ;}
+.yc-dw .i-2{background:url(../img/11.png);}
+.yc-dw span{margin-top:8px;}
+.yc-r li{margin-bottom:20px;}
+.list-8 ul{margin-bottom:20px;}
+.yc .yc-r{width:310px; line-height:22px;}
+.r-l img{width:90px; height:50px; margin-right:10px;}
+.r-r p{margin-left:0;}
+.yc-r .r-r{margin-top:4px;}
+.yc-r .li-4{margin-bottom:10px;}
+.yc-r .li-5{margin-bottom:0;}
+/*电视剧*/
+.dsju div{line-height:30px;}
+.dsju h3{font-size:24px; margin-right:20px; color:#909090;}
+.dsju div a{padding:0 10px; font-weight:bold;}
+.dsju div a:hover{background:#06a7e1; color:#fff;}
+.dsju{position:relative;}
+.dsju .sun{width:100px; height:22px; background:url(../img/14.png); position:absolute; bottom:-4px; right:352px;}
+.ds-l{width:660px;}
+.ds-up a{margin-right:20px; margin-bottom:20px; position:relative;}
+.ds-up .img-1{width:420px; height:240px;}
+.ds-up .info{line-height:22px; position:absolute; bottom:0; left:5px; color:#fff;}
+.ds-up .info span{font-size:16px; background:none;}
+.ds-up .info p{margin-left:0;}
+.ds-up a .sp{position:absolute; bottom:0; right:5px; line-height:22px; color:#fff;}
+.ds-up .r-1{position:relative;}
+.ds-up .r-1 img{width:200px; height:110px;}
+.ds-up .r-1 p{margin-left:0;}
+.ds-up .r-1 .du {width:43px; height:43px; display:block; background:url(../img/youku.png) -180px -60px; position:absolute; top:0; left:0;}
+.r-1 .info-1{line-height:18px; position:absolute; bottom:0;left:0; font-size:12px; color:#fff; width:200px;}
+.ds-dw .dw-1 img{width:200px; height:110px;}
+.ds-dw .dw-1 li{position:relative; height:110px; width:200px; margin-right:20px;}
+.ds-dw .dw-1 .info-2{line-height:21px; color:#fff; position:absolute; bottom:0px; left:6px;}
+.ds-dw .dw-1 .info-2 p{margin-left:0;}
+.dw-1 .sp-2{position:absolute; bottom:0; right:0; line-height:22px; color:#fff;}
+/*电视剧右边*/
+.ds-r{width:310px;}
+.nav-l{width:155px;}
+.nav-l ul li{line-height:20px; text-align:center; margin-bottom:10px;}
+.nav-l li span{width:20px; height:20px; background:#ef3f22; margin-right:10px;}
+.nav-l li .sp-3{background:#03a7e7;}
+.ds-r .zhi-s{line-height:30px; margin-bottom:14px;}
+.ds-r .zhi-s a:hover{color:#039;}
+.ds-r .zhi-s .a-1{margin-right:18px;}
+.g-up .g-r {line-height:22px; margin-left:10px;}
+.g-up .g-r .p-1{color:#909090;}
+.g-up{margin-bottom:10px;}
+/*韩剧*/
+.h-ju{margin-bottom:81px;}
+.hju{line-height:22px;}
+.hju span{font-size:26px; color:#909090;}
+.hju div a{padding:0 10px;}
+.hju div a:hover{margin:0 10px; background:#069; color:#fff;}
+.ju-j .list img{width:200px; height:110px;}
+.list .info-h{line-height:18px;}
+.ju-j .list{position:relative; margin-right:20px;}
+.ju-j .info-h{position:absolute; bottom:0; left:5px; }
+.list .info-h span,.list .info-h p{color:#fff;}
+.list .sp4{width:43px; height:43px; background:url(../img/youku.png) -180px -60px;  position:absolute; top:0; left:0;}
+/*电影*/
+.dian{margin-bottom:50px;}
+.dy .dy-l{width:660px;}
+.dy .dy-l .a{margin-top:20px;}
+.dy .dy-l img{width:420px; height:240px;}
+.dy .dy-l .img-2{width:200px; height:110px;}
+.dy-l a{position:relative; display:block; float:left; margin-right:20px;}
+.dy-l .info-3{line-height:25px; position:absolute; bottom:0; left:5px;}
+.dy-l .info-3 p{color:#fff;}
+/*院线会员*/
+.vip .v-l{margin-right:20px;}
+.vip .vip-p{width:145px; line-height:30px; background:#f5f5f5; text-align:center;}
+/*娱乐搞笑*/
+.yule .yu-l{width:200px; position:relative; margin-right:20px; margin-bottom:20px;}
+.yu-l .yu-up{line-height:26px;}
+.yu-l .yu-up a{margin-left:45px; color:#3399e0;}
+.yu-l .yu-pic img{width:200px; height:110px;}
+.yu-l .yu-info{height:53px; background:#f5f5f5;}
+.yu-info .yu-num i, .yu-info .yu-num span{float:left;}
+.yu-info .yu-num i{width:12px; height:12px; background:url(../img/0.png); margin:6px 8px 0 5px;}
+.yu-info .yu-num .i{margin-left:16px;}
+.yu-l .yu-info p{line-height:22px; padding-top:7px;}
+.yu-info .yu-num span{margin-top:3px;}
+.yu-l .img-1{position:absolute; top:0; left:0;}
+.list-9 .msn{line-height:21px; margin-left:10px;}
+.list-9 .msn span{color:#ccc;}
+.list-9 li{margin-bottom:20px;}
+/*体育*/
+.tiyu{width:200px; margin-right:20px;}
+.tiyu .tiyu-info{line-height:22px; height:80px; background:#f5f5f5;}
+.tiyu-info p{padding-top:7px;}
+.tiyu-num i{width:12px; height:12px; background:url(../img/0.png); margin:6px 3px 0 4px;}
+.tiyu-num span{margin-top:4px;}
+.tiyu-num .i-1{margin-left:10px;}
+.dan li{line-height:23px; margin-bottom:20px;}
+.dan .list-10{margin-bottom:0;}
+.dan li p{margin-left:11px;}
+/*生活*/
+.list-11{width:200px; position:relative; margin-right:20px;}
+.list-11 h3{font-size:25px; font-weight:normal; line-height:25px;}
+.list-11 a img{margin-top:20px;}
+.info-4 {position:absolute; bottom:0; left:5px; color:#fff;}
+.info-4 p{line-height:24px;}
+.info-4 .info-dn i{width:12px; height:12px; background:url(../img/0.png); display:block; margin-right:4px;}
+.r-hd{line-height:25px; margin-bottom:20px;}
+.r-hd h3{font-size:25px; margin-right:20px;}
+.r-hd a{padding:0 10px;}
+.r-hd a:hover{background:#06a7e1; color:#fff;}
+.pic-r{margin-right:5px;}
+.xiao-pic p{line-height:21px;}
+.list-12{margin-bottom:20px;}
+.list-12 .pic-r img{margin-right:5px;}
+.list-12 .xiao-pic{margin-bottom:10px;}
+/*car*/
+.car h3{width:220px; line-height:25px; font-size:25px; font-weight:normal; color:#666;}
+.pic-1{width:200px; height:110px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.header{background:#ddd; line-height:30px;}
+.hd-nav {margin-bottom:25px;}
+.hd-nav .list-1 i{font-style:normal; margin:0 10px;}
+.hd-nav .list-1 .phone{width:11px; height:16px; background:url(../img/jd2015img.png) -2px -2px; margin:7px 5px 0 0 ;}
+/*logo*/
+.ding{position:relative; margin-bottom:29px;}
+.logo{margin-top:4px;}
+.logo a{width:159px; height:42px; background:url(../img/1.png); display:block; text-indent:-999px;}
+.soso {margin-left:203px;}
+.soso input{width:374px; height:32px; border:2px solid #b61d1d; border-right:none; padding-left:4px; line-height:32px;}
+.soso .sou {width:82px; height:36px; background:#b61d1d; font-size:16px; color:#fff; font-weight:bold; cursor:pointer;}
+.shopcar {width:139px; height:34px; border:1px solid #ccc; line-height:34px; position:relative;}
+.shopcar .car{width:16px; height:13px; background:url(../img/jd2015img.png) -1px -117px; margin:11px 9px 0 19px;}
+.shopcar span{margin-right:20px;}
+.shopcar .hua{background:#c81623; line-height:14px; position:absolute; top:-4px; right:19px; padding:0 7px 0 7px; border-radius:5px; border-bottom-left-radius:0; color:#fff;}
+.img{position:absolute; top:9px; left:175px;}
+/*nav*/
+.nav{line-height:44px; border-bottom:2px solid #b1191a;}
+.nav-l{width:210px; background:#b1191a; color:#fff; text-align:center;}
+.nav-r .list-2{margin-left:10px;}
+.nav-r a{float:left; margin-right:20px; padding:0 10px; font-family:'microsoft  yahei';}
+.nav-r a:hover{background:#b1191a; color:#fff; border-radius:10px;}
+/*侧边导航*/
+.sidebar{width:210px; background:#c81623;}
+.sidebar .list-3{margin:0 11px; line-height:32px; color:#fff;}
+.sidebar .list-3 a{color:#fff; margin-right:9px;}
+.pic .hd-pic{margin:12px 10px 0 10px;}
+.news-r{width:248px; border:1px solid #ccc; margin-top:12px;}
+.news-r h3{line-height:43px; border-bottom:1px dotted #ccc;}
+
+
+
+
+

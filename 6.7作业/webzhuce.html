@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css/base.css" />
+<style>
+	.box{width:310px; height:440px; margin:20px auto; border:1px solid #ccc;}
+	.box p{float:left; line-height:22px; margin:0 4px;}
+	.list-1{margin-tottom:17px;}
+	.box i{color:red; margin-right:9px;}
+	.box span{width:80px; float:left; line-height:30px; text-align:right;  margin-right:10px;}
+	.list-1 select{width:198px; margin-top:5px;}
+	.list-2{margin-bottom:17px;}
+	.list-2 input{width:198px; height:28px; border:1px solid #ccc; border-radius:5px; float:left;}
+	.list-3{margin-bottom:15px;}
+	.list-3 input{width:198px; height:28px; border:1px solid #ccc; border-radius:5px; float:left;}
+	.list-4 {margin-bottom:20px;}
+	.list-4 input{ width:198px; height:28px; border:1px solid #ccc; border-radius:5px; float:left;}
+	.list-5 {margin-bottom:22px;}
+	.list-5 span{ line-height:22px;}
+	.list-6{margin-bottom:28px;}
+	.list-6 input{float:left;}
+	.list-6 span, .list-6 p{ line-height:16px;}
+	.list-7 span{line-height:22px;}
+	.list-7 select{float:left; margin-right:3px;}
+	.list-7{margin-bottom:17px;}
+	.list-8{margin-bottom:19px;}
+	.list-8 input{width:126px; height:30px; background:#f2f2f2; float:left; border:1px solid #ccc;}
+	.list-8 .txt{width:66px; height:30px; border:1px solid #ccc; float:left; margin-left:8px; background:none;}
+	.list-9 input{ width:200px; height:40px; background:#ffa00a; border:1px solid #ff9b01; float:left; margin-left:90px; color:#fff; font-weight:bold; font-size:20px;}
+</style>
+</head>
+
+<body>
+	<div class="box">
+    	<div class="fl clearfix list-1">
+        	<span ><i>*</i>所在地</span>
+            <select>
+            	<option>中国大陆</option>
+            </select>
+        </div>
+        <div class="list-2 clearfix">
+        	<span><i>*</i>手机号码</span>
+            <input type="text" placeholder="0086 请输入您的手机号码" />
+        </div>
+        <div class="list-3 clearfix">
+        	<span><i>*</i>设置密码</span>
+            <input type="password" placeholder="请输入银行卡密码"/>
+        </div>
+        <div class="list-4 clearfix">
+        	<span><i>*</i>昵称</span>
+            <input type="text" />
+        </div>
+        <div class="list-5 clearfix">
+        	<span><i>*</i>生日</span>
+            <select class="fl">
+            	<option>请选择</option>
+            </select>
+            <p>年</p>
+            <select class="fl">
+            	<option></option>
+            </select>
+            <p>月</p>
+            <select class="fl">
+            	<option></option>
+            </select>
+            <p>日</p>
+        </div>
+        <div class="list-6 clearfix">
+        	<span><i>*</i>性别</span>
+            <input type="radio" name="sex" /><p>男</p>
+             <input type="radio" name="sex" /><p>女</p>
+        </div>
+        <div class="clearfix list-7">
+        	<span><i>*</i>所在地</span>
+            <select>
+            	<option>北京</option>
+            </select>
+            <select>
+            	<option>东城区</option>
+            </select>
+          
+        </div>
+        <div class="list-8 clearfix">
+        	<span><i>*</i>激活码</span>
+            <input type="button" value="免费获取短信验证码" />
+            <input type="text" class="txt" />
+        </div>
+        <div class="list-9 clearfix">
+        	<input type="button" value="点击注册" />
+        </div>
+    </div>
+</body>
+</html>
+ 

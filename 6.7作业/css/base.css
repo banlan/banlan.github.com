@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ul,ol ,p,dl,dd,input,textarea{margin:0; padding:0;}
+textarea{resize:none;}
+input{border:none;}
+input,textarea{outline:none;}
+a{color:#787878; text-decoration:none;}
+img{vertical-align:top; border:none;}/*解决ie里面a包img有边框*/
+li{list-style:none;}
+/*重复使用*/
+.fl{float:left;}
+.fr{float:right;}
+.clearfix:after{content:''; display:block; clear:both;}
+body {font-size:12px;}
+.w{width:1200px; margin:0 auto;}

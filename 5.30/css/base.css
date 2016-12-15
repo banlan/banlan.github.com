@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,ul,ol p{margin:0; padding:0;}
+a{color:#787878; text-decoration:none;}
+img{vertical-align:top; border:none;}
+li{list-style:none;}
+/*重复使用*/
+.fl{float:left;}
+.fr{float:right;}
+body {background:#f7f7f7; color:#787878;}
+p {font-size:12px; }

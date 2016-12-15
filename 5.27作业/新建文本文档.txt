@@ -1,0 +1,157 @@
+
+
+repeat重复
+no-repeat不重复
+background-image 背景图片
+background-repeat：repeat-x；x周
+background-repeat：repeat-y；y轴
+background-position：50px 100px；使用x y轴的像素表示
+background
+
+ps撤销 ctrl+alt+z
+变换选区，选择+变换选区
+
+font-size  设置字体大小
+
+font-family  设置字体样式
+
+font-style：italic  字体倾斜
+	    normal  字体正常
+
+<i><em>默认字体倾斜<i></i><em></em>emphasize   i--italic字体倾斜
+
+font-weight:bold;  字体加粗
+
+<b></b>  <strong></strong>  默认字体加粗
+bold itlic 100px 字体  简写的顺序
+
+至少有字体的大小和字体的系列
+
+ 文本的样式都能继承
+ 自己有的样式，那就不继承父级的文本样式
+ 如：<a>不能继承父级的颜色
+	（装饰）
+text-decoration:	（穿过）
+		none   line-through中划线   overline上划线 underline下划线
+
+decoration  through  none  overline  line-through   underline
+
+相对路径：相对当前的文档  ../上一级
+
+&gt>  &lt<  &nbsp空格
+
+
+
+优先级：
+	id> 类 》标签 》通配符   那个范围越大那个优先级靠前 
+
+省略号：
+	white-space：nowrap  不换行
+
+	overflow：hidden  溢出隐藏
+
+	text-overflow：ellipsis  省略号
+
+	对于多行问本的省略号  可以用后台或者js完成
+
+text-indent:首行缩进  2em缩进2个字体大小
+
+行内标签受空格影响   块级不收影响
+
+块级标签宽度默认为父级的宽的body   块级用途：  分块   布局
+
+行内标签的宽的靠里面的内容撑大   行内用途：  修饰  小细节
+
+块标签可以潜逃任何标签  但是p不能嵌套
+
+<a>不能嵌套<a>  可以嵌套任何标签
+
+display：block  行内转化块
+
+display：inline  块转化行内，转成行内后不能设置宽高
+
+嵌套选择器：  
+		 div span { background: red; }
+
+	      p span { background: yellow; }
+
+
+     <div>
+    	<span>dddd</span>
+    </div>
+    <p>
+    	<span>gggggggggggg</span>
+    </p>
+
+伪类选择器：  lvha     link  visited  hover  active
+
+	
+	a:link  {color:red;}   访问之前的颜色
+
+	a:visited  {color:red;}   访问之后
+
+	a:hover{color:red;}  鼠标方上去变成红色
+	
+	a:active{ color：red；}  鼠标按住不放显示的颜色
+
+优先级：  id》class》
+
+	自己有的就不继承父级的样式
+
+清空默认的样式：
+		h1,h2,h3,h4,h5,h6,p,ul,ol,body{margin:0; padding:0;}
+
+vertical-align:top;解决图片下面的3像素距离
+display：block；也可以解决不推荐使用
+border：none；解决a包img在ie浏览器里的边框
+<link rel="stylesheet" href="css/base.css"/>
+
+margin:o auto;对于有宽的的盒子水平居中
+
+text-align：center； 让盒子里的文字和图片水平居中
+
+浮动可以让元素放在一行 float：left；想左浮动
+
+浮动元素可以让行内元素变成块
+宽度可以考内容撑大（前提是没有设置宽的）
+
+父级宽度不够。子级会掉下来
+浮动三要素：
+一个浮动   ，他的同级元素都要浮动
+浮动元素尽量要有宽度
+
+有了浮动就要清浮动 给父级加overflow：hidden；清浮动
+
+margin的拖拽
+子级的margin-top给了父级
+给父级加个上边框   给父级加个overflow-hidden
+用父级的padding-top代替子级margin-top
+margin的合并解决方法  只写一个方向
+
+min-width最小宽度等于网页内容的宽的
+
+
+清空默认样式：
+	body,h1,h2,h3,h4,h5,h6,ul,ol,p{ margin:0; padding:0;}
+	a{ text-decoration:none; color:#666;}
+	img{ vertical-align:top; border:none;}
+	li{ list-style:none;}
+
+<ul class="nav">
+                <li>首页</li>
+                <li>博客</li>
+                <li>关于我们</li>
+                <li>友情链接</li>
+                <li>联系我们</li>
+       		 </ul>
+
+
+<div class="bg">
+        	<ul class="nav">
+                <li>首页</li>
+                <li>博客</li>
+                <li>关于我们</li>
+                <li>友情链接</li>
+                <li>联系我们</li>
+       		 </ul>
+        </div>

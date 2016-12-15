@@ -1,0 +1,98 @@
+背景： background-color
+	background-image：url（）
+	background-repeat
+		no-repeat
+		repeat-x
+		repeat-y
+	background-position
+	background：yellow url（） no-repeat 20px 20px；
+字体的分写：
+	font-size：大小
+	font-style：italic
+		    normal
+	font-family：字体的系列
+	font-weight：字体加粗  bold/normal
+	font：italic bold 19px ‘microsoft yahei’；
+	font：10px 'microsoft yahei
+	&gt>	&lt'<	&nbsp空格
+文本的样式都能继承。如果有自己的样式，那就不能继承父级的样式
+
+css选择器：
+
+	通配符  *  代表所有的标签
+
+	标签选择器： div{}  p {}
+	类选择器：.box{}
+	id选择器：#box{}；
+
+加类名：class=“box”
+
+加id  id=“box”
+id是唯一的。一个网页中不能出现相同的id
+
+起名的规范：
+	起名要有意义  不能以数字开头   区分大小写
+优先级：
+	id>class>标签》*
+	选择的范围越小优先级越大
+
+省略号：
+	单行文本：white-space：nowrap；
+		
+		overflow：hidden；
+		text-overflow：ellipsis；
+对于多行文本的省略号。可以用后台或js完成
+
+em  一个字体的大小
+
+text-indent  首行缩进  text-indent：2em；
+
+块与行内：块：div p  h1-h6
+
+特点：独占一行  能设置宽高  不受空格影响  默认宽度是父级的宽度
+用途：；分块  布局
+
+行内标签：
+ 	span a  em   i  b  strong
+特性 共处一行内  不能设置宽高  受空格影响
+ 用途： 修饰  小细节
+
+嵌套规则：硬的包软的，但是p不能嵌套块标签，
+	a标签可以嵌套任何标签  行内标签只能嵌套行内标签
+
+块与行内的转化：
+		display：block； 行内转化块
+		display：inline； 块转行内
+css选择器：
+	群组选择器：span ， p ，div{color：red；} 
+
+	嵌套选择器：div  span {color：red；}
+	伪类选择器：a：link{color：red；}访问之前
+		  a：visited{color：blue；}访问之后
+		a：hover { color：green；}鼠标放上去之后
+		a：active{color：鼠标按着不放；}
+盒子占据的实际大小：
+		width+height+padding+border
+padding：1px   四个方向
+	1px 20px  上下   左右
+	1px  20px  30px  上  左右   下
+	1px  20px  30px 40px 上下左右
+margin:1px； 四个方向
+	1px 2px;  上下     左右
+	1px 2px 3px; 上    左右    下 
+	1px 2px 3px 4px
+
+有序列表：
+
+	<ol>
+		<li>范冰冰<li>
+		<li>li冰冰<li>
+		<li>w冰冰<li>
+	<ol>
+无序列表：
+
+	<ul>
+		<li>ff<li>
+		<li>等等<li>
+		<li>的地位<li>
+	<ul>

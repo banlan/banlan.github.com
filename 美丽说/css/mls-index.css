@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.header{border-bottom:1px solid #eeeeee; border-top:1px solid #eee; background:#f5f5f5; min-width:1200px; height:38px; line-height:38px;}
+
+.header-nav .web{margin-top:11px;}
+.header-nav .list1{ background:url(../mls-img/1.png); width:16px; height:16px; margin-right:3px;}
+.header-nav .list2{ background:url(../mls-img/2.png); width:15px; height:16px; margin-right:3px;}
+.header-nav .list3{ background:url(../mls-img/3.png); width:13px; height:15px; margin-right:10px;}
+.header-nav .list4{ background:url(../mls-img/4.png); width:10px; height:16px; margin-right:8px;}
+.header-nav .sx{margin:0 16px; }
+/*logo*/
+
+.logo a {width:106px; height:36px; background:url(../mls-img/logo.png); text-indent:-9999px; display:block; margin:15px 0 15px 0;}
+.tu img {margin-top:17px; margin-left:254px;}
+.shop{margin:17px 0 17px; }
+.shop .car {width:98px; height:30px; border:1px solid #ccc; line-height:30px; background:#f5f5f5;}
+.shop .car i{width:17px; height:13px; background:url(../mls-img/6.png); display:block; margin:7px 5px 10px 8px;}
+.shop .look {border:1px solid #ccc; line-height:30px; width:84px; height:30px; margin-left:10px; background:#f5f5f5;}
+.shop .look i {width:13px; height:15px; background:url(../mls-img/7.png); display:block; margin:7px 6px 8px 8px ;}
+/*导航条*/
+.t{background:#ff6599; line-height:40px; min-width:1200px;}
+.t .nav{margin-left:126px;}
+.t .nav a{float:left; padding:0 15px 0 14px;  color:#fff;}
+.t .nav a:hover{background:#ed3577;}
+.t .nav .list1{background:#ed3577;}
+/*大图*/
+.datu{height:419px; background:#fd5d89; min-width:1200px;}
+/*sidebar*/
+.hd-con{margin-bottom:16px; height:574px; width:1200px;}
+.hd-con .sidebar{width:238px; height:572px; border:1px solid #ccc; background:#fff;}
+.sidebar li {margin-left:30px; margin-top:7px; border-bottom:1px solid #ccc; margin-right:20px; border-bottom:1px dashed #ccc;}
+.sidebar .hot {  line-height:28px; font-size:16px; color:#ff6699;}
+.sidebar .hot i{width:15px; height:17px; background:url(../mls-img/8.png); margin:5px 7px 6px 0;}
+.sidebar .leibie a{line-height:24px; float:left; margin-right:15px;}
+.hd-con .z-down {width:960px; height:155px;}
+.hd-con .z-down li {border:1px solid #ccc; margin:11px  0 0 10px;}
+.hd-con .z-down .list-1,.hd-con .z-down .list-5{margin-left:11px;}
+
+.hd-con .r-te-j {width:200px; height:419px;}
+.hd-con .r-te-j li {border-bottom:1px solid #ccc;}
+.hd-con .z-tu {width:760px; height:419px;}.
+
+/*人气单品*/
+.up{height:100px; background:red;}
