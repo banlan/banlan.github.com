@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel = "Shortcut Icon" href="image/icon.ico">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<title>网易轮播图</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #000;
+}
+#wrap {
+	width: 700px;
+	height: 350px;
+	border: #000 1px solid;
+	margin: 50px auto;	
+	position: relative;
+	overflow:hidden;
+}
+
+#wrap ul {
+	height: 350px;
+	position:absolute;
+	left:0;
+	top: 0;
+}
+#wrap ul li{
+	width: 700px;
+	height: 350px;
+	float: left;
+}
+#wrap ul li img {
+	width: 700px;
+	height: 350px;
+}
+#wrap ol {
+	width: 425px;
+	height:30px;
+	position:absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -212px;
+}
+#wrap ol li {
+	width:80px;
+	height: 30px;
+	float:left;
+	margin-right: 5px;
+	background:#000;
+	position: relative;
+}
+
+#wrap ol li span{
+	width: 0;
+	height: 30px;
+	position:absolute;
+	left: 0;
+	top: 0;
+	background: #c00;
+}
+</style>
+<script src="js/move-end.js"></script>
+<script>
+window.onload = function(){
+	var oWrap = document.getElementById('wrap');
+	var oUl = oWrap.children[0];
+	var aLi = oUl.children;
+	var oOl = oWrap.children[1];
+	var aSpan = oOl.getElementsByTagName('span');
+	
+	oUl.style.width = aLi.length * aLi[0].offsetWidth + 'px';
+	var iNow = 0;
+	function next(){
+		move(aSpan[iNow],{width:80},{time:1500,easeing:'linear',fn:function(){
+				iNow++;
+				for(var i = 0; i < aSpan.length; i++){
+					aSpan[i].style.width = 0;	
+				}
+				if(iNow == aLi.length)iNow = 0;
+				move(oUl,{left:-aLi[0].offsetWidth*iNow},{time:1500,easeing:'linear',fn:next});	
+			}
+		});	
+	}
+	next();
+}
+</script>
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+<header class="clearfix header" >
+		<div id="box">
+			<a href="index.html" >首页</a>
+			<a href="profile.html">个人介绍</a>
+			<a href="lunboshow.html" class="active">轮播展示</a>
+			<!-- <a href="javascript:;">HTML5</a>
+			<a href="javascript:;">首页</a>
+			<span class=""></span> -->
+		</div>
+	</header>
+<div id="wrap">
+	<ul>
+    	<li><img src="image/img/1.jpg"></li>
+    	<li><img src="image/img/2.jpg"></li>
+    	<li><img src="image/img/3.jpg"></li>
+    	<li><img src="image/img/4.jpg"></li>
+    	<li><img src="image/img/5.jpg"></li>
+    </ul>
+    <ol>
+    	<li><span></span></li>
+    	<li><span></span></li>
+    	<li><span></span></li>
+    	<li><span></span></li>
+    	<li><span></span></li>
+    </ol>
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src='js/base.js'></script>
+</html>

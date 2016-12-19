@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel = "Shortcut Icon" href="image/icon.ico">
+	<title>爆炸效果</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul,li{
+			list-style: none;
+		}
+		ul{
+			width: 360px;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			margin-left: -180px;
+		}
+		ul li{
+			padding: 10px 15px;
+			float: left;
+			border-radius: 10px;
+			margin: 5px;
+			border: 1px solid #000;
+		}
+		html,body{
+			height: 100%;
+			background: -webkit-linear-gradient(left,green 10%,blue ,red ,yellow,pink);
+			overflow: hidden;
+		}
+		#box1{
+			width: 700px;
+			height: 400px;
+			background: url(image/img/2.jpg);
+			background-size: 700px 400px;
+			margin: 100px auto;
+			position: relative;
+			box-shadow: 0px 0px 20px 10px #fff;
+		}
+		#box1 span{
+			width: 100px;
+			height: 100px;
+			background: url(image/img/1.jpg) no-repeat;
+			background-size: 700px 400px;
+			position: absolute;
+			top: 0;
+			left: 0;
+
+		}
+	</style>
+	<script>
+		function rnd(m,n){
+			return parseInt(Math.random()*(n-m)+m);
+		}
+		window.onload = function(){
+			var oBox1 = document.getElementById('box1');
+			var aLi = document.getElementsByTagName('li')[0];
+			var R = 7;
+			var C = 4;
+			for (var r = 0; r < R; r++) {
+				for(var c = 0;c < C; c++){
+					var aSpan = document.createElement('span');
+					aSpan.style.left = r*100+'px';
+					aSpan.style.top = c*100+'px';
+					aSpan.style.backgroundPosition = -r*100+'px -'+c*100+'px';
+					oBox1.appendChild(aSpan);
+				}
+			}
+			var aSpan = oBox1.children;
+			var iNow = 1;
+			var ready = true;
+			aLi.onclick = function(){
+				if(!ready)return;
+				ready = false;
+				iNow++;
+				oBox1.style.backgroundImage = 'url(image/img/'+iNow%26+'.jpg)';
+				for(var i=0;i<aSpan.length;i++){
+					aSpan[i].style.transition='1s all ease';
+					var x = aSpan[i].offsetLeft - oBox1.offsetWidth/2+aSpan[i].offsetWidth/2;
+					var y = aSpan[i].offsetTop - oBox1.offsetHeight/2+aSpan[i].offsetHeight/2;
+
+					aSpan[i].style.transform = 'perspective(800px) translate('+x+'px,'+y+'px) rotateX('+rnd(-180,180)+'deg) rotateY('+rnd(-180,180)+'deg)  scale(1.5)';
+					aSpan[i].style.opacity=0;
+				}
+				
+			};
+			aSpan[0].addEventListener('transitionend',function(){
+				ready = true;
+				for (var i = 0; i < aSpan.length; i++) {
+					aSpan[i].style.transition = 'none';
+					aSpan[i].style.transform='perspective(800px) translate(0px,0px) rotateX(0deg) rotateY(0deg)  scale(1)';
+					aSpan[i].style.opacity = 1;
+					aSpan[i].style.backgroundImage = 'url(image/img/'+iNow%26+'.jpg)'
+				}
+			},false)	
+		};
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+	<header class="clearfix header" >
+		<div id="box">
+			<a href="index.html" class="active">首页</a>
+			<a href="profile.html">个人介绍</a>
+			<a href="lunboshow.html">轮播展示</a>
+			<!-- <a href="javascript:;">HTML5</a>
+			<a href="javascript:;">首页</a> -->
+			<span class=""></span>
+		</div>
+	</header>
+	<div id="box1"></div>
+	<ul>
+		<li>爆炸</li>
+		<!-- <li>翻转</li>
+		<li>3D</li>
+		<li>翻页</li>
+		<li>滚动</li> -->
+	</ul>
+</body>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src='js/base.js'></script>
+</html>

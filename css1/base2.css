@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+.head { border:1px solid #e7e7e7; border-bottom:3px solid #57c332; background:#f8f8f8; min-width:1155px; border-radius:3px;}
+.nav{line-height:50px;}
+.nav h3{font-size:19px;}
+.nav h3 a{color:#57c332;}
+.nav div a{font-size:17px; padding:0 30px; }
+.nav div a:hover{background:#e7e7e7;}
+.nav div .a-1{background:url(../img/1.png) no-repeat 15px center;}
+
+
+/*内容*/
+.con .con-head {line-height:40px; border-bottom:1px dashed #e5e5e5; margin-top:10px;}
+.con .con-head p{background:url(../img/2.png) no-repeat 4px center; padding-left:29px;}
+.con .con-head a{color:#57c332;}

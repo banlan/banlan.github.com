@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* CSS Document */
+.nav div{margin-left:170px;}
+.nav div a{height:34px; padding:0 13px; margin:10px 40px 0 0; background:#57dd2a; color:#fff; line-height:34px; border-radius:3px;}
+
+.con .login{width:295px; height:244px; border:2px solid #ccc; margin:48px auto 0; border-radius:4px ;}
+.login .div1{width:243px; height:40px; border:1px solid #ccc; border-radius:3px;  position:relative; line-height:40px; margin:18px auto 0;}
+.login .one{ background:url(../img/16.png) no-repeat 9px; padding-left:30px;}
+.login .div1 span{line-height:40px; position:absolute; top:0; right:10px;}
+.login .two{background:url(../img/18.png) no-repeat 9px; padding-left:30px;}
+.login .danxuan{line-height:54px; margin-left:25px;}
+.login .danxuan input{margin:23px 5px 0 0;}
+.danxuan .sp-1{margin-right:25px;}
+.login .anniu{width:245px; height:38px; margin:0 auto;}
+.anniu input{width:112px; height:38px; border-radius:3px;}
+.anniu .an-1{background:#3d8de2; color:#fff; border:1px solid #2c69ae; }
+.anniu .an-2{background:#eef4fa; color:#6d798c; border:1px solid #afbfcf;}
+
+
+
