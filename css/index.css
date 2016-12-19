@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+body,html{
+	height:100%;
+}
+body{
+	background: url(../image/home.jpg) no-repeat;
+	background-size: 100% 100%;
+	
+}
+header{
+	width:100%;
+	background: rgba(204,255,153,0.5);
+	line-height: 50px;
+	
+}
+header>div{
+	width:500px;
+	position:relative;
+	height:50px;
+	margin:0 auto;
+}
+header a{
+	float:left;
+	width:20%;
+	
+	font-size:20px;
+	text-align: center;
+	
+}
+header span{
+
+	z-index: -2;
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width:100px;
+	height:50px;
+	border-radius: 10px;
+	
+	background-size: 100px 50px;
+	background-image: url(../image/back.png);
+}
+p{
+	display:none;
+}
+/*诗句*/
+#art{
+	width:510px;
+	height:200px;
+	
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-100px;
+	margin-left:-100px;
+	line-height: 40px;
+}
+#art span{
+	font: bold 40px '宋体';
+	display: none;
+	
+	text-shadow:2px 2px 2px red;
+
+}

@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel = "Shortcut Icon" href="image/icon.ico">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<title>无标题文档</title>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: #000;
+}
+#box1{
+	width: 700px;
+	position:relative;
+	height: 350px;
+	border: #000 1px solid;
+	margin: 50px auto;
+	overflow:hidden;
+}
+
+#box1 li {
+	width: 700px;
+	height: 350px;
+	position: absolute;
+	top: 0;
+}
+li img{
+	width: 700px;
+	height: 350px;
+}
+</style>
+<script src="js/move-end.js"></script>
+<script>
+window.onload = function(){
+	var oBox1 = document.getElementById('box1');
+	var aLi = oBox1.children;
+	
+	var w = 50;//用户可以看到的图片的宽度；
+	for(var i = 1; i < aLi.length; i++){
+		aLi[i].style.left = oBox1.offsetWidth - w * (aLi.length - i) + 'px';	
+	}
+	//鼠标移入移出
+	for(var i =  0; i < aLi.length; i++){
+		aLi[i].index = i;
+		aLi[i].onmouseover = function(){
+			for(var i = 0; i < aLi.length; i++){
+				if(i <= this.index){
+					//console.log(i)
+					console.log(this.index)
+					move(aLi[i],{left:i*w});	
+				}else{
+					move(aLi[i],{left:oBox1.offsetWidth - w * (aLi.length - i)});	
+				}
+			}
+		}	
+	}
+}
+</script>
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+
+<body>
+<header class="clearfix header" >
+		<div id="box">
+			<a href="index.html" >首页</a>
+			<a href="profile.html">个人介绍</a>
+			<a href="lunboshow.html" class="active">轮播展示</a>
+			<!-- <a href="javascript:;">HTML5</a>
+			<a href="javascript:;">首页</a>
+			<span class=""></span> -->
+		</div>
+	</header>
+
+<ul id="box1">
+	<li><img src="image/img/1.jpg"></li>
+	<li><img src="image/img/2.jpg"></li>
+	<li><img src="image/img/3.jpg"></li>
+	<li><img src="image/img/4.jpg"></li>
+	<li><img src="image/img/5.jpg"></li>
+	<li><img src="image/img/6.jpg"></li>
+</ul>
+</body>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src='js/base.js'></script>
+</html>
