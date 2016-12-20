@@ -1,0 +1,865 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link rel="stylesheet" href="css5/base.css"/ >
+<!--<link rel="stylesheet" href="css5/index.css"/>-->
+<link rel="stylesheet" href="css5/style.css"/>
+<script src="js5/demo.js"></script>
+<script src="js5/move-end.js"></script>
+<!--<script src="js5/function.js"></script>-->
+</head>
+	
+<body>
+	<div class="header">
+    	<div class="header-nav w clearfix">
+        	<div class="fl clearfix login">
+            	<a href="#" class="first">收藏美团</a>
+                <a href="#" id="login">登陆</a>
+                
+                <a href="#" id="zhuce">注册</a>
+                <span>|</span>
+                <div class="fl clearfix">
+                	<a href="#" class="fl phone" id="phone">手机美团</a>
+                    <i class="arrow fl"></i>
+                </div>
+            </div>
+            
+            <div class="login-info" id="login_info">
+                	<i id="close">×</i>
+            </div>
+            <div id="zhuce_info">
+            	<i id="close">×</i>
+            </div>
+            <div id="phone_info">
+            	<i id="close">×</i>
+            </div>
+            <ul class="fr header-nav-r">
+            	<ul class="clearfix">
+                	<li class="first">
+                    	<a href="#">我的订单</a>
+                    </li>
+                	<li>
+                    	<a href="#" id="my_tuan">我的美团</a>
+                        <i class="arrow  "></i>
+                        <span>|</span>
+                    </li>
+                	<li>
+                    	<a href="#" id="liulan">最近浏览</a>
+                        <i class="arrow "></i>
+                        <span>|</span>
+                    </li>
+                	<li>
+                    	<a href="#" class="shopcar" id="shopcar">购物车0件</a>
+                        <i class="arrow "></i>
+                        <span>|</span>
+                    </li>
+                	<li>
+                    	<a href="#" id="kefu">联系客服</a>
+                         <i class="arrow "></i>
+                         <span>|</span>
+                    </li>
+                	<li>
+                    	<a href="#" id="shopmen">我是商家</a>
+                        <i class="arrow "></i>
+                        <span>|</span>
+                    </li>
+                	<li>
+                    	<a href="#" id="more">更多</a>
+                        <i class="arrow "></i>
+                    </li>
+                </ul>
+            </ul>
+            <div id="tuan_info">
+            	<i>×</i>
+            </div>
+            <div id="liulan_info">
+            	<i>×</i>
+            </div>
+            <div id="shopcar_info">
+            	<i>×</i>
+            </div>
+            <div id="kefu_info">
+            	<i>×</i>
+            </div>
+            <div id="shopmen_info">
+            	<i>×</i>
+            </div>
+            <div id="more_info">
+            	<i>×</i>
+            </div>
+        </div>
+    </div>
+    <!--头部图片-->
+    <div class="w pic" >
+    	<span id="close"></span>
+    	<img src="img5/4.png" id="pic_img"/>
+        
+    </div>
+    <!--搜索框-->
+    <div class="w clearfix">
+		<div class="logo clearfix fl">
+          	<h1 class="clearfix fl">
+                <a href="#">美团</a>
+            </h1>
+            <div class="fl action">
+            	<h3>北京</h3>
+                <p id="qiehuan">切换城市</p>
+                <div id="action">
+                	
+                </div>
+            </div>
+        </div>
+        <div class="searce fl">
+        	<div class="soso clearfix">
+            	<div class="fl">
+                	<span>团购</span>
+                    <em class="arrow2"></em>
+                </div>
+            	<input type="text" class="fl txt" placeholder="请输入搜索的内容"/>
+                <input type="button" value="搜索" class="fl btn"/>
+            </div>
+        	
+        	<div class="soso_list clearfix">
+            	<a href="#">蛋糕</a>
+            	<a href="#">烤鱼</a>
+            	<a href="#">正一味</a>
+            	<a href="#">烤肉</a>
+            	<a href="#">火锅</a>
+            	<a href="#">好伦哥</a>
+            	<a href="#">金百万</a>
+            	<a href="#">羊蝎子</a>
+            	<a href="#">比格</a>
+            	<a href="#" class="last_list">新辣道</a>
+            </div>
+        </div>
+        <div class="fuwu fr">
+        	<div>
+            	<img src="img5/6.png"/>
+                <p>随时退</p>
+            </div>
+            <div class="div2">
+            	<img src="img5/6.png"/>
+                <p>不满意面单</p>
+            </div>
+            <div>
+            	<img src="img5/6.png"/>
+                <p>过期退</p>
+            </div>
+        </div>
+    </div>
+    <!--导航-->
+    <div class="w clearfix">
+    	<div class="nav_l fl">
+        	<h2>全部分类</h2>
+            <ul class="nav_l_list">
+            	<li class="clearfix">
+                     <b ><a href="#">美食</a></b>
+                     <span >
+                       	<a href="#">自助餐</a>
+                       	<a href="#">代金卷</a>
+                     </span>
+                </li>
+            	<li class="clearfix">
+                	<b><a href="#">酒店/客栈</a></b>
+                    <span href="#">经济型酒店</span>
+                </li>
+            	<li class="clearfix">
+                	<b><a href="#">电影/在线选作</a></b>
+                </li>
+            	<li class="clearfix">
+                	<b><a href="#">KTV</a></b>
+                </li>
+            	<li class="clearfix">
+                	<b><a href="#">休闲娱乐</a></b>
+                    <span>
+                    	<a href="#">足疗按摩</a>
+                    	<a href="#">温泉</a>
+                    </span>
+                </li>
+            	<li class="clearfix">
+                	<b><a href="#">周边游/旅游</a></b>
+                </li>
+            	<li class="clearfix">
+                	<b><a href="#">生活服务</a></b>
+                    <span>
+                   	 	<a href="#">婚纱摄影</a>
+                    	<a href="#">个性写真</a>
+                    </span>
+                </li>
+            	<li class="clearfix">
+                	<b><a href="#">购物</a></b>
+                    <span>
+                    	<a href="#">男装</a>
+                    	<a href="#">女装</a>
+                    </span>
+                </li>
+            	<li class="clearfix last_li">
+                	<b><a href="#">丽人</a></b>
+                    <span>
+                    	<a href="#">美发</a>
+                    	<a href="#">美甲</a>
+                    	<a href="#">美瞳</a>
+                    </span>
+                </li>
+            </ul>
+        </div>
+        <div class="nav_r fr">
+        	<div class="nav_r_list clearfix">
+            	<a href="#">首页</a>
+            	<a href="#">今日新单</a>
+            	<a href="#">购物</a>
+            	<a href="#">身边外卖</a>
+            	<a href="#">名店抢购</a>
+            </div>
+            <div class="nav_r_b_l fl clearfix">
+            	<ul>
+                	<li>
+                    	<span class="fl">热门团购</span>
+                        <div class="fl clearfix">
+                            <a href="#" class="hot">自助餐</a>
+                            <a href="#" class="hot">火锅</a>
+                            <a href="#">小吃快餐</a>
+                            <a href="#">烧烤烤肉</a>
+                            <a href="#">足疗按摩</a>
+                            <a href="#">KTV</a>
+                            <a href="#">甜点饮品</a>
+                            <a href="#">美发</a>
+                            <a href="#">韩国料理</a>
+                        </div>
+                    </li>
+                	<li id="list_2" >
+                    	<span class="fl">热门团购</span>
+                        <div class="fl clearfix">
+                            <a href="#" class="hot">海淀区</a>
+                            <a href="#" class="hot">朝阳区</a>
+                            <a href="#">丰台区</a>
+                            <a href="#">大兴区</a>
+                            <a href="#">西城区</a>
+                            <a href="#">东城区</a>
+                            <a href="#">昌平区</a>
+                            <a href="#">通州</a>
+                            <a href="#">石景山区</a>
+                            <a href="#" class="more_list" id="more_list">更多</a>
+                        </div>
+                        <div class="clearfix fl div1" style="display:none;" id="show">
+                        	<a href="#">顺义区</a>
+                        	<a href="#">房山区</a>
+                        	<a href="#">密云区</a>
+                        	<a href="#">怀柔区</a>
+                        	<a href="#">延庆区</a>
+                        	<a href="#">门头沟</a>
+                        	<a href="#">平谷区</a>
+                        </div>
+                    </li>
+                	<li>
+                    	<span class="fl">热门团购</span>
+                        <div class="fl clearfix">
+                            <a href="#" class="hot">自助餐</a>
+                            <a href="#" class="hot">火锅</a>
+                            <a href="#">小吃快餐</a>
+                            <a href="#">烧烤烤肉</a>
+                            <a href="#">足疗按摩</a>
+                            <a href="#">KTV</a>
+                            <a href="#">甜点饮品</a>
+                            <a href="#">美发</a>
+                            <a href="#">韩国料理</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix tab" style="overflow:hidden;">
+                	<div class="fl tab-show" id="tab-show">
+                    	<div class="fl list-3">
+                        <a href="#">
+                            <img src="img5/15.png"/>
+                        </a>
+                        <div class="clearfix">
+                            <div class="fl list-3-info">
+                                <h3>时间轴餐厅</h3>
+                                <p>单人自助餐，提供免费WIFI</p>
+                            </div>
+                            <span class="fr">￥256</span>
+                        </div>
+                	</div>
+                		<div class="fl list-3 list-4">
+                        <a href="#">
+                            <img src="img5/18.png"/>
+                        </a>
+                        <div class="clearfix">
+                            <div class="fl list-3-info">
+                                <h3>时间轴餐厅</h3>
+                                <p>单人自助餐，提供免费WIFI</p>
+                            </div>
+                            <span class="fr">￥68</span>
+                        </div>
+                	</div>
+                    	<div class="fl list-3">
+                        <a href="#">
+                            <img src="img5/18.png"/>
+                        </a>
+                        <div class="clearfix">
+                            <div class="fl list-3-info">
+                                <h3>将太无二</h3>
+                                <p>单人自助餐，提供免费WIFI</p>
+                            </div>
+                            <span class="fr">￥256</span>
+                        </div>
+                	</div>
+                		<div class="fl list-3 list-4">
+                        <a href="#">
+                            <img src="img5/15.png"/>
+                        </a>
+                        <div class="clearfix">
+                            <div class="fl list-3-info">
+                                <h3>时间轴餐厅</h3>
+                                <p>单人自助餐，提供免费WIFI</p>
+                            </div>
+                            <span class="fr">￥68</span>
+                        </div>
+                	</div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="nav_r_b_r fr">
+            	<img src="img5/16.png" />
+                <div class="new-info">
+                	<b>每日上新</b>
+                    <p>吃喝玩乐最低价</p>
+                    <a href="#" >
+                    	<img src="img5/17.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--名店抢购-->
+    <div class="w con">
+    	<div class="clock clearfix">
+        	<a href="#" class="fl">名店抢购</a>
+           	<div class="fl time clearfix">
+            	<p class="fl">进行中</p>
+                <ul class="clearfix" id = "ul">
+                	<li></li>
+                	<li></li>
+                	<li class="li_list1">:</li>
+                	<li></li>
+                	<li></li>
+                	<li class="li_list2">:</li>
+                	<li></li>
+                	<li></li>
+                </ul>
+            </div>
+        </div>
+        <div class="star_shop" id="star_shop">
+        	<ul id="star_ul">
+            	<li class="list_1 clearfix">
+                	<div>
+                    	<a href="#"><img src="img5/20.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/20.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/20.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/20.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/20.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                </li>
+            	<li class="list_1 clearfix">
+                	<div>
+                    	<a href="#"><img src="img5/21.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/21.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/21.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/21.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/21.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                </li>
+            	<li class="list_1 clearfix">
+                	<div>
+                    	<a href="#"><img src="img5/22.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/22.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/22.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/22.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                	<div>
+                    	<a href="#"><img src="img5/22.png"/></a>
+                        <h3>
+                        	<a href="#">望京W+川味中国菜</a>
+                        </h3>
+                        <div class="clearfix list_1_info">
+                        	<span class="fl qian">￥128元</span>
+                            <span class="fr">已售65份</span>
+                        </div>
+                        <p><span>手机购买立减13%</span></p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--美食-->
+    <div class="w">
+    	<div class="clearfix foot">
+        	<h3 class="fl clearfix">
+            	<a href="#" class="fl">美食</a>
+            </h3>
+            <div class="fr clearfix foot_nav">
+            	<a href="#">美食</a>
+            	<a href="#">美食</a>
+            	<a href="#">美食</a>
+            	<a href="#">美食</a>
+            	<a href="#">美食</a>
+            	<a href="#">美食</a>
+            	<a href="#">美食</a>
+            	<a href="#">美食</a>
+            </div>
+        </div>
+        <div class="foot_list clearfix">
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix" id="box">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix star_list" id="box1">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix star_list" id="box2">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix star_list" id="box3">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix star_list" id="box4">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix star_list" id="box5">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix star_list" id="box6">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        	<div class="foot_list1 fl">
+            	<a href="#"><img src="img5/24.png" /></a>
+                <h3>
+                	<a href="#">
+                    	<b>20店通用蝎王府</b>
+                        <p>100元代金卷1张，出酒水饮料外，全场通用</p>
+                    </a>
+                </h3>
+                <div class="clearfix">
+                	<strong class="fl new_qian">￥78.9元</strong>
+                    <span class="fl old_qian">门店价<i>100元</i></span>
+                    <span class="fr num">
+                    	已售
+                        <strong>284743件</strong>
+                    </span>
+                </div>
+                <div class="star clearfix">
+                	<span class="fl new_people">新用户立减15元</span>
+                    <div class="fl clearfix star_list" id="box7">
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    	<span></span>
+                    </div>
+                    <span class="fr">
+                    	<strong>233423</strong>
+                        人评价
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--左侧定位-->
+    <div id="posi">
+        <a >生活服务</a>
+        <a class="list-5">丽人</a>
+        <a class="list-6">旅游</a>
+    </div>
+    <!--底部导航-->
+    <div class="w">
+        <div class="foot-nav">
+            <div class="foot-nav-t clearfix">
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+                <a href="#">团购分类</a>
+            </div>
+            <div class="foot-nav-b"></div>
+        </div>
+    </div>
+</body>
+</html>
